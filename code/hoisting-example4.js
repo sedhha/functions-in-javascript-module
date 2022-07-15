@@ -3,7 +3,7 @@ console.log('A = ', a);
 console.log('MultiplyByTwo = ', multiplyNumberByTwo);
 console.log('Multiply 4 by 2 = ', multiplyNumberByTwo(4));
 
-let a = 10;
+var a = 10;
 
 var multiplyNumberByTwo = function (number) {
   console.log('Result = ', result);

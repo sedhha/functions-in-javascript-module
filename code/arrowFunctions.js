@@ -6,6 +6,7 @@
     4. With one Argument and Return value
     5. With multiple Arguments and Return value
     6. With Return Value as an object
+    7. Single Line Return Arrow Function With Return Value as an object
 */
 
 // 1. With no Arguments and no Return value
@@ -24,6 +25,10 @@ const genericarrowFunctionWithOneArgumentButNoReturnValue = function (name) {
   console.log('Hello ' + name);
 };
 // Arrow Function Conversion = ???
+const arrowFunctionWithOneArgumentButNoReturnValue = (name) => {
+  console.log('Generic Function With One Argument But No Return Value');
+  console.log('Hello ' + name);
+};
 
 // 3. With multiple Arguments and no Return value
 
@@ -46,17 +51,15 @@ const genericarrowFunctionWithOneArgumentAndReturnValue = function (name) {
 };
 
 // Arrow Function Conversion = ???
+const arrowFunctionWithOneArgumentAndReturnValue = (name) => {
+  console.log('Generic Function With One Argument and Return Value');
+  return 'Hello ' + name;
+};
 
 // 5. With multiple Arguments and Return value
 
 // Generic Function
-const genericarrowFunctionWithMultipleArgumentsAndReturnValue = function (
-  name,
-  age
-) {
-  console.log('Generic Function With Multiple Arguments and Return Value');
-  return 'Hello ' + name + ' and your age is ' + age;
-};
+
 // Arrow Function Conversion = ???
 
 // 6. Single Line Return Arrow Function

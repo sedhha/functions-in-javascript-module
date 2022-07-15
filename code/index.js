@@ -3,9 +3,7 @@ function microWave(timeInSeconds = 5) {
   // Function Body / Implementation
 
   // helper function
-  setTimeout(() => {
-    console.log('Food is Ready after: ' + timeInSeconds + ' seconds');
-  }, timeInSeconds * 1000);
+  console.log('Food is Ready after: ' + timeInSeconds + ' seconds');
 
   return true; // return value
 }
@@ -17,3 +15,5 @@ console.log('First Process Started = ', cookingStarted);
 // Calling a Function without Parameters
 const cookingStartedForSecondProcess = microWave();
 console.log('Second Process Started = ', cookingStartedForSecondProcess);
+
+// 2*2
